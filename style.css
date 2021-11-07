@@ -177,7 +177,7 @@ body{
 .price h2{
     font-size: 2.5rem;
     font-weight: 900;
-    color: rgb(53, 5, 97);
+    color: #311b92;
     margin-bottom: 10px;
 }
 
@@ -271,13 +271,14 @@ button{
 .price h2{
     font-size: 1.4rem;
     font-weight: 900;
-    color: rgb(53, 5, 97);
+    color: #311b92;
     margin-bottom: 15px;
 }
 
 .price p{
     font-size: 0.9rem;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .search__wrap .input{
@@ -484,9 +485,8 @@ button{
     border-radius: 100px;
     padding: 10px 0;
     margin-left: 50px;
-    transition: transform;
-}
 
+}
 .btn-card-right{
     position: relative;
     left: 10px;
@@ -679,8 +679,172 @@ button{
     margin-left: -10px;
 }
     
+}
+
+/*Cloud*/
+
+/*Cloud title*/
+.cloud{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cloud h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #311b92;
+}
+
+.cloud p{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+@media(max-width: 768px){
+    .cloud h2{
+        font-size: 1.2rem;
+    }
+}
+
+/*Grid*/
+.cloud__box{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+hr{
+    display: none;
+}
+
+.cloud__box img{  
+ width: 600px;
+ margin-right: 5px;
+}
+
+.cloud__box .icons{
+    width: 50px;
+    background-color: #e1f5fe;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.cloud__text h3{
+    color: #311b92;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cloud__text p{
+    text-align: left;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn__cloud{
+    font-size: 1.1rem;
+    color: #e53935;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn__cloud .fas{
+    margin-left: 5px;
+}
+
+.btn__cloud .fa-arrow-right{
+    margin-left: 5px;
+    font-size: 1.3rem;
 
 }
+
+@media(max-width: 768px){
+    .cloud__box{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    hr{
+        display:block;
+        border: 2 solid #0e0968;
+    }
+
+    .cloud__box img{  
+        width: 350px;
+        margin-left: -50px;
+       }
+       
+       .cloud__box .icons{
+           width: 50px;
+           margin: 0 auto;
+           background-color: #e1f5fe;
+           border-radius: 100px;
+           padding: 10px;
+       }
+       
+       .cloud__text h3{
+           color: #311b92;
+           font-weight: 900;
+           margin-top: 10px;
+           margin-bottom: 10px;
+       }
+       
+       .cloud__text p{
+           font-size: 0.9rem;
+           text-align: justify;
+           font-weight: 300;
+           margin-top: 10px;
+           margin-bottom: 20px;
+           margin-right: 50px;
+       }
+       
+       .btn__cloud{
+           font-size: 1rem;
+           color: #e53935;
+           font-weight: 800;
+           text-decoration: none;
+           text-transform: uppercase;
+       }
+       
+       .btn__cloud .fas{
+           margin-left: 5px;
+       }
+       
+       .btn__cloud .fa-arrow-right{
+           margin-left: 5px;
+           font-size: 1rem;
+       
+       }
+}
+
+
+
+
+
+
+
+
+
 
 
 
