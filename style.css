@@ -321,7 +321,7 @@ button{
 
 .price__list ul{
     width: 100%;
-    margin: 50px 5px;
+    margin: 50px 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2px;
@@ -331,7 +331,7 @@ button{
  .price__list li{
     font-size: 0.6rem;
     font-weight: bold;
-    padding: 5px;
+    margin-left: 5px;
 }
 
 }
@@ -339,7 +339,7 @@ button{
 /*Price card*/
 .price__card{
     position: relative;
-    left: 10px;
+    left: 30px;
     margin: 0 10px;
     margin-top: 60px;
     width: 100%;
@@ -842,8 +842,120 @@ hr{
 }
 
 
+/*Control-Panel*/
+
+.control{
+    width: 100%;
+    margin: 40px auto;
+    background-color: #212121;
+}
+
+.control h2{
+    text-align: center;
+    padding-top: 40px;
+    margin: 40px 10px;
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.control__box{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.control__img img{
+    width: 600px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.control__text{
+    color: #fff;
+    flex: 1.5;
+    padding: 30px;
+}
+
+.text{
+    padding-left: 30px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.text h3{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.text p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.text i{
+    color: #003c8f;
+    position: absolute;
+    top: 4px;
+    left: -25px;
+    font-size: 2.5rem;
+}
+
+@media(max-width: 768px){
+
+.control__box{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.control h2{
+    font-size: 1.2rem;
+}
+
+.control__img img{
+    width: 400px;
+    margin-left: -70px;
+    
+}
+
+.text{
+    padding-left: 30px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.text h3{
+    font-size: 0.9rem;
+    margin-left: -5px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+
+}
+
+.text p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.text i{
+    color: #003c8f;
+    position: absolute;
+    top: 4px;
+    left: -15px;
+    font-size: 2rem;
+}
 
 
+}
 
 
 
